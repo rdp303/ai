@@ -1,0 +1,10 @@
+url,page_name,sessions,leads,load_time_ms,has_primary_cta,status_code,conversion_rate
+/,Homepage,82000,4450,2050,True,200,0.05426829268292683
+/services,Services,48500,1290,3150,True,200,0.026597938144329897
+/pricing,Pricing,31200,620,2750,True,200,0.01987179487179487
+/emergency-service,Emergency Service,29900,1910,2250,True,200,0.06387959866220735
+/blog/how-to-choose,Blog: How to Choose,26800,210,4350,False,200,0.007835820895522387
+/locations/north,North Location,19400,410,3600,True,200,0.021134020618556702
+/locations/south,South Location,17900,355,3900,True,200,0.01983240223463687
+/contact,Contact,14800,2050,2450,True,200,0.13851351351351351
+/old-offer,Old Promotion,6700,25,4800,False,200,0.0037313432835820895
