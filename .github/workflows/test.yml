@@ -21,3 +21,20 @@ jobs:
         run: pytest -q
       - name: Run retrieval evals
         run: python scripts/run_evals.py
+
+  smb-business-auditor:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: smb-business-auditor
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Rebuild synthetic demo data
+        run: python generate_demo_data.py
+      - name: Run unit tests
+        run: pytest -q
