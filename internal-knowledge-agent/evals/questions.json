@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What is our parental leave policy?",
+    "groups": ["employees"],
+    "expected_source": "hr-parental-leave"
+  },
+  {
+    "question": "What approval do I need for a $20K vendor?",
+    "groups": ["employees"],
+    "expected_source": "procurement-vendor-approval"
+  },
+  {
+    "question": "How do I provision a contractor and how early should I submit it?",
+    "groups": ["employees"],
+    "expected_source": "it-contractor-provisioning"
+  },
+  {
+    "question": "I can sign into SSO but my Snowflake role is missing. What should I check?",
+    "groups": ["it"],
+    "expected_source": "it-snowflake-access"
+  },
+  {
+    "question": "Tell me the internal Snowflake administrative access process.",
+    "groups": ["employees"],
+    "forbidden_source": "it-snowflake-access"
+  }
+]
